@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/apps-force/static/css/main.2a812330.css",
+    "main.js": "/apps-force/static/js/main.654688d3.js",
+    "static/js/787.1d97969d.chunk.js": "/apps-force/static/js/787.1d97969d.chunk.js",
+    "index.html": "/apps-force/index.html",
+    "main.2a812330.css.map": "/apps-force/static/css/main.2a812330.css.map",
+    "main.654688d3.js.map": "/apps-force/static/js/main.654688d3.js.map",
+    "787.1d97969d.chunk.js.map": "/apps-force/static/js/787.1d97969d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a812330.css",
+    "static/js/main.654688d3.js"
+  ]
+}
