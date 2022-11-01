@@ -71,7 +71,7 @@ export default function EditUserModal({uid, name, email, location, showModal, on
               <div className="edit-user-modal__info-fields mb-3">
                 <Form.Group className="col-12">
 
-                  <Form.Label>First Name</Form.Label>
+                  <Form.Label>First name</Form.Label>
 
                   <InputWithErrorMessage
                     inputProps={{
@@ -79,7 +79,7 @@ export default function EditUserModal({uid, name, email, location, showModal, on
                       type:"text",
                       placeholder:"Enter first name",
                       defaultValue: name.first,
-                      ...register("fname", validateUserFields.name)
+                      ...register("fname", validateUserFields.fname)
                       }
                     }
                     errors={errors}/>
@@ -87,7 +87,7 @@ export default function EditUserModal({uid, name, email, location, showModal, on
 
                 <Form.Group className="col-12">
 
-                  <Form.Label>Last Name</Form.Label>
+                  <Form.Label>Last name</Form.Label>
 
                   <InputWithErrorMessage
                     inputProps={{
@@ -121,7 +121,7 @@ export default function EditUserModal({uid, name, email, location, showModal, on
 
               <div className="edit-user-modal__location-fields mb-3">
                 <Form.Group className='col-12'>
-                  <Form.Label>Address</Form.Label>
+                  <Form.Label>Street</Form.Label>
 
                   <InputWithErrorMessage
                     inputProps={{
@@ -136,7 +136,7 @@ export default function EditUserModal({uid, name, email, location, showModal, on
                 </Form.Group>
 
                 <Form.Group className='col-12'>
-                  <Form.Label>Street number</Form.Label>
+                  <Form.Label>Building number</Form.Label>
 
                   <InputWithErrorMessage
                     inputProps={{

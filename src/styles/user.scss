@@ -12,6 +12,7 @@
     justify-content: center;
     row-gap: 10px;
     box-shadow: 0 0 3px rgb(0 0 0 / 20%);
+    grid-template-columns: 1fr;
 }
 
 .user__image {
