@@ -1,0 +1,25 @@
+@use './variables.scss';
+
+.users {
+    max-width: variables.$container-lg;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 16px;
+    display: grid;
+    justify-content: center;
+    gap: 40px;
+}
+
+@include variables.breakpoint-up-to('sm'){
+    .users {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@include variables.breakpoint-up-to('md'){
+    .users {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

@@ -1,0 +1,22 @@
+@use '../styles/variables.scss';
+
+.edit-user-modal__info-fields,
+.edit-user-modal__location-fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 16px;
+}
+
+.edit-user-modal {
+    label.form-label {
+        font-size: 14px;
+        font-weight: 700;
+        color: #666;
+    }
+
+    .form-control {
+        color: #3c3c3c;
+    }
+}
