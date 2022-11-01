@@ -8,7 +8,7 @@ export const validateUserFields = {
             value: true,
             message: requiredMessage
         },
-        min:{
+        minLength:{
             value: 3,
             message:"This input required min 3 words"
         },
@@ -18,7 +18,7 @@ export const validateUserFields = {
             value: true,
             message: requiredMessage
         },
-        min:{
+        minLength:{
             value: 3,
             message:"This input required min 3 words"
         },
